@@ -7,7 +7,7 @@ import { CodeBreakerService } from 'src/app/services/code-breaker.service';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnInit {
-  resp: string = 'XXXX';
+  resp: string = '';
 
   constructor(private codeBreakerService: CodeBreakerService) { }
 
